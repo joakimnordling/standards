@@ -24,17 +24,6 @@
             "in": "header"
           },
           {
-            "description": "HMAC-RSA256 signature for the request using Product Gateway's public key",
-            "required": false,
-            "schema": {
-              "title": "X-Signature",
-              "type": "string",
-              "description": "HMAC-RSA256 signature for the request using Product Gateway's public key"
-            },
-            "name": "x-signature",
-            "in": "header"
-          },
-          {
             "description": "The login token. Value should be \"Bearer [token]\"",
             "required": false,
             "schema": {

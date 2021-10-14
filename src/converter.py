@@ -66,11 +66,6 @@ def export_openapi_spec(standard: DataProductStandard) -> dict:
             None,
             description="Optional consent token",
         ),
-        x_signature: Optional[str] = Header(
-            None,
-            description="HMAC-RSA256 signature for the request "
-            "using Product Gateway's public key",
-        ),
         authorization: Optional[str] = Header(
             None, description='The login token. Value should be "Bearer [token]"'
         ),
